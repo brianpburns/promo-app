@@ -1,10 +1,10 @@
 {
-  "name": "sb-sample-extension",
-  "description": "Extension Sample",
+  "name": "promo-app",
+  "description": "Promo Video Maker App",
   "version": "0.0.0",
   "main": "dist/index.js",
   "keywords": [],
-  "author": "Unbounce - Content Foundations",
+  "author": "Brian Burns",
   "license": "UNLICENSED",
   "browserslist": [
     "last 2 versions"
