@@ -1,4 +1,4 @@
-# sb-sample-extension
+# Promo Video Maker App
 
 ## Developing apps locally using the Smart Builder
 
