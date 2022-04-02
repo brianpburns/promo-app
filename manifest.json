@@ -9,6 +9,6 @@
   "iconUrl": "https://promo.com/images/promoVideos/logo.svg",
   "moreInfoUrl": "https://promo.com/",
   "categories": [],
-  "include": [],
+  "files": [],
   "externalScripts": ["http://localhost:8082/index.js"]
 }
