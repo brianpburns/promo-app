@@ -1,5 +1,5 @@
 {
-  "extensionId": "@burns/promoVideoMaker",
+  "appId": "@burns/promoVideoMaker",
   "version": "0.1",
   "name": "Promo Video Maker",
   "isBeta": true,
