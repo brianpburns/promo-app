@@ -6,7 +6,7 @@
   "isSwappable": true,
   "type": "media",
   "description": "Embed a Promo.com video",
-  "iconUrl": "https://promo.com/images/promoVideos/logo.svg",
+  "iconUrl": "https://app-assets-unbounce-com.s3.amazonaws.com/content-smart-builder-apps/promo-video/icon.svg",
   "moreInfoUrl": "https://promo.com/",
   "categories": [],
   "files": [],
