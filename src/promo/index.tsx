@@ -1,7 +1,6 @@
 import { component, Schema } from 'ub-shared';
 
 import PromoComponent from './components/promo-component';
-import { migrations } from './migrations';
 
 const schema = Schema.object({
   src: Schema.string(),
@@ -15,6 +14,4 @@ export const Component = component({
   tags: ['newControls', 'swappable'],
   schema,
   Component: PromoComponent,
-  version: migrations.length,
-  migrations,
 });
