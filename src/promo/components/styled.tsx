@@ -31,10 +31,11 @@ export const ControlsContainer = styled.div`
   flex-direction: column;
 `;
 
-export const StyledInputField = styled(InputField)`
-  font-size: 14px;
-  font-weight: 300;
-  color: #606060;
+export const StyledInputField = styled(InputField)<{ hasValue: boolean }>`
+  font-size: 20px;
+  padding: 2px;
+  font-weight: 400;
+  color: ${({ hasValue }) => (hasValue ? '#303030' : '#8D8D8D')};
 `;
 
 export const Overlay = styled.div`

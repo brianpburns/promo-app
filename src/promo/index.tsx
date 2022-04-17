@@ -1,7 +1,6 @@
 import { component, Schema } from 'ub-shared';
 
 import PromoComponent from './components/promo-component';
-import { migrations } from './migrations';
 
 const schema = Schema.object({
   src: Schema.string(),
@@ -12,9 +11,7 @@ const schema = Schema.object({
 export const Component = component({
   componentTypeId: 'promoVideoMaker',
   displayName: 'Promo Video',
-  tags: ['newControls', 'swappable'],
+  tags: ['newControls', 'swappable', 'isFullWidth'],
   schema,
   Component: PromoComponent,
-  version: migrations.length,
-  migrations,
 });
