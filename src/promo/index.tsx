@@ -11,7 +11,7 @@ const schema = Schema.object({
 export const Component = component({
   componentTypeId: 'promoVideoMaker',
   displayName: 'Promo Video',
-  tags: ['newControls', 'swappable'],
+  tags: ['newControls', 'swappable', 'isFullWidth'],
   schema,
   Component: PromoComponent,
 });
