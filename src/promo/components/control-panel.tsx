@@ -53,9 +53,12 @@ export const Panel = ({ data, dispatch }: ControlPanelProps<DataStructure>) => {
         onChange={(e) => setTempSrc(e.currentTarget.value)}
         onBlur={onUrlChange}
         placeholder="https://promo.com/share/623434sdrs4365c758c76bed2"
+        hasValue={!!tempSrc}
+        type="text"
+        minimal
       />
       {errorMessage && <Error>{errorMessage}</Error>}
-      <Info>Note: enter the URL for your Promo video and we&apos;ll add it to your page here</Info>
+      <Info>Enter the URL for your Promo video and we&apos;ll add it to your page here</Info>
       <Label>Playback Settings</Label>
       <StyledCheckbox label="Autoplay" checked={autoPlay} onClick={toggleAutoPlay} />
       <StyledCheckbox label="Loop Video" checked={loopVideo} onClick={toggleLoopVideo} />

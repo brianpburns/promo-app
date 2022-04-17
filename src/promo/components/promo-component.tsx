@@ -6,8 +6,8 @@ import { DataStructure } from '../types';
 import { getVideoId } from '../util/get-video-id';
 import { Panel } from './control-panel';
 import { Placeholder } from './placeholder';
+import { SettingsIcon } from './settings-icon';
 import { Overlay, Wrapper } from './styled';
-import { VideoIcon } from './video-icon';
 
 const PromoComponent = ({ data, mode }: ComponentProps<DataStructure, WithStylesProps>) => {
   const { src, autoPlay, loopVideo } = data;
@@ -42,7 +42,7 @@ export default WithControls(PromoComponent, [
     label: label,
     Button: (props) => (
       <ControlButton label={label} active={false} {...props}>
-        <VideoIcon />
+        <SettingsIcon />
       </ControlButton>
     ),
     Panel,

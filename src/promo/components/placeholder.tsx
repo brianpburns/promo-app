@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { VideoIcon } from './video-icon';
+import { SettingsIcon } from './settings-icon';
 
 const Wrapper = styled.div`
   background: #ededed;
@@ -18,7 +18,7 @@ const Wrapper = styled.div`
 export const Placeholder = () => {
   return (
     <Wrapper data-testid="video-placeholder">
-      <VideoIcon />
+      <SettingsIcon />
     </Wrapper>
   );
 };
