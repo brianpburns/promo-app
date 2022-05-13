@@ -7,7 +7,7 @@
   "type": "media",
   "description": "Embed a Promo.com video",
   "iconUrl": "https://app-assets-unbounce-com.s3.amazonaws.com/content-smart-builder-apps/promo-video/icon.svg",
-  "moreInfoUrl": "https://promo.com/",
+  "moreInfoUrl": "https://documentation.unbounce.com/hc/en-us/articles/5559084331284",
   "categories": [],
   "files": [],
   "externalScripts": ["http://localhost:8082/index.js"]
