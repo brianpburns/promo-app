@@ -6,7 +6,7 @@ const schema = Schema.object({
   src: Schema.string(),
   autoPlay: Schema.boolean().default(true),
   loopVideo: Schema.boolean().default(false),
-}).noControls();
+});
 
 export const Component = component({
   componentTypeId: 'promoVideoMaker',
